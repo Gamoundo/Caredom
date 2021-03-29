@@ -16,15 +16,26 @@ class Cats extends React.Component{
         .then(catFacts => this.setState({ catFacts}))
         
       }
-
-
+      displayCatFacts = (array) => {
+        return (array.map((catFact) => {
+            return (
+                <div className="facts">
+                    <p>{catFact.text}</p>
+                </div>
+            )
+        }))
+    }
+       
 
 
     render(){
+      
+       
+
         console.log(this.state.catFacts)
         return (
-            <div>
-                <p> ...</p>
+            <div className="factDisplay">
+                {this.displayCatFacts(this.state.catFacts)}
             </div>
         )
     }

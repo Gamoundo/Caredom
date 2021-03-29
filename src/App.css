@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.facts {
+  text-align: left;
+  padding: 2rem 3rem;
+}
+
+.factDisplay {
+  background-color: #1e414b;
+}
