@@ -1,5 +1,9 @@
+body {
+  background-color: #282c34;
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -39,9 +43,11 @@
 
 .facts {
   text-align: left;
+  color: #61dafb;
   padding: 2rem 3rem;
 }
 
 .factDisplay {
   background-color: #1e414b;
+  color: #61dafb;
 }

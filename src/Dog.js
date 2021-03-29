@@ -2,7 +2,7 @@ import React from 'react';
 
 function Dog () {
     return (
-        <div>
+        <div className="factDisplay">
             <p> Dogs are great</p>
         </div>
     )
