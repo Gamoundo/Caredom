@@ -27,7 +27,7 @@ class Dog extends React.Component{
            console.log(this.state.dogFacts)
         return (
             <div className="factDisplay">
-                 {this.displaydogFacts(this.state.dogFacts)}
+                 {this.state.dogFacts && this.displaydogFacts(this.state.dogFacts)}
             </div>
         )
        }
