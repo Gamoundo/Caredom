@@ -59,3 +59,12 @@ body {
   color: rgb(0, 128, 75);
 
 }
+
+.sentence {
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+  
+}
