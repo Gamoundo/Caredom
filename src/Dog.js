@@ -1,4 +1,5 @@
 import React from 'react';
+import Links from './links';
 import Stories from './Stories';
 
 
@@ -44,6 +45,7 @@ class Dog extends React.Component{
             </div>
             <div>
                 <Stories dogs={this.dogStories} name="dogs"/>
+                <Links />
             </div>
             </div>
             
