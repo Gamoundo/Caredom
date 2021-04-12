@@ -1,4 +1,5 @@
 import React from 'react';
+import Links from './links';
 import Stories from './Stories';
 
 
@@ -43,7 +44,7 @@ class Cats extends React.Component{
     render(){
       
        
-
+  
         console.log(this.state.catFacts)
         return (
             <div>
@@ -51,7 +52,8 @@ class Cats extends React.Component{
                 {this.displayCatFacts(this.state.catFacts)}
             </div>
             <div>
-                <Stories cats={this.catStories}/>
+                <Stories cats={this.catStories} name="cats"/>
+                <Links />
             </div>
             </div>
             

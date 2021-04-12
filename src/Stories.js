@@ -5,6 +5,7 @@ import React from 'react';
 
 function Stories (props) {
     console.log(props)
+    const name = props.name
     const splitAndDisplayText = (str) => {
         const  sentences = str.split(".")
         console.log(sentences)
@@ -19,7 +20,7 @@ function Stories (props) {
           }
           ))
       }
-    const displayCatFacts = (array) => {
+    const displayAnimalStories = (array) => {
        
         return (array.map((animal) => {
             return (
@@ -34,7 +35,7 @@ function Stories (props) {
     return (
         
         <div >
-            {displayCatFacts(props.cats)}
+            {props && displayAnimalStories(props[name])}
         </div>
     )
 }

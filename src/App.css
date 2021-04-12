@@ -63,7 +63,7 @@ body {
 .sentence {
   text-align: left;
   display: flex;
-  justify-content: space-evenly;
+ padding: 3rem 2rem;
   
   
   
