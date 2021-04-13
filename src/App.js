@@ -35,3 +35,6 @@ function App() {
 }
 
 export default App;
+
+// to keep with crud give users to share their stories about their animals. 
+//Maybe even let them post pics of the animal that changed their life.

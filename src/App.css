@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color: lightblue;
 }
 .App {
   text-align: center;
@@ -43,13 +43,13 @@ body {
 
 .facts {
   text-align: left;
-  color: #61dafb;
+  color: purple;
   padding: 2rem 3rem;
 }
 
 .factDisplay {
-  background-color: #1e414b;
-  color: #61dafb;
+  background-color: papayawhip;
+  color: purple;
 }
 
 .stories {
@@ -73,4 +73,9 @@ body {
   text-align: left;
   background-color: papayawhip;
   color: palevioletred;
+}
+
+.paragraph {
+  margin: 5rem;
+  font-size: large;
 }

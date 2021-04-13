@@ -25,8 +25,9 @@ function Stories (props) {
         return (array.map((animal) => {
             return (
                 <div className="stories">
+                    
                     <img src={animal.img} alt ={animal.species} width ="300" height ="300"/>
-                    {splitAndDisplayText(animal.text)}
+                    <p className="paragraph"> {animal.text}</p>
                 </div>
             )
         }))
@@ -35,6 +36,7 @@ function Stories (props) {
     return (
         
         <div >
+            
             {props && displayAnimalStories(props[name])}
         </div>
     )
