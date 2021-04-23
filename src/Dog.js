@@ -24,6 +24,10 @@ class Dog extends React.Component{
                )
            }))
        }
+
+       dogVideos = {
+           
+       }
        dogStories = [
         {"species" : "dog",
         "img" : "https://assets3.thrillist.com/v1/image/2705269/381x254/scale;jpeg_quality=65.jpg",

@@ -1,4 +1,6 @@
 import React from 'react';
+import Story from './Form';
+
 import Links from './links';
 import Stories from './Stories';
 
@@ -54,6 +56,7 @@ class Cats extends React.Component{
             <div>
                 <Stories cats={this.catStories} name="cats"/>
                 <Links />
+                <Story />
             </div>
             </div>
             

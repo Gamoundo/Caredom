@@ -79,3 +79,13 @@ body {
   margin: 5rem;
   font-size: large;
 }
+
+.form {
+  width: 20rem;
+  background-color: beige;
+  color: palevioletred;
+  margin: 5rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  
+}
